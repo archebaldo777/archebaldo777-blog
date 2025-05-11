@@ -1,5 +1,5 @@
-import "./app.scss";
+import classes from "./app.module.scss";
 
-export const App = (): JSX.Element => {
-  return <h1 className="app">Hello world from App!</h1>;
+export const App = () => {
+  return <h1 className={classes.app}>Hello world from App!</h1>;
 };
